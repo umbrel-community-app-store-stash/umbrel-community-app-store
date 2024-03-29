@@ -1,0 +1,19 @@
+manifestVersion: 1
+id: stashapp
+name: Stash
+tagline: Stash library
+category: media
+version: "0.0.1"
+port: 9999
+description: >-
+  Stash app
+developer: Stash
+website: https://github.com/StashApp
+repo: https://github.com/StashApp
+support: https://github.com/StashApp
+releaseNotes: >-
+  Initial umbrel release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
