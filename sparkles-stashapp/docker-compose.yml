@@ -2,7 +2,13 @@
 # APPDESCRIPTION=An organizer for your porn, written in Go
 version: '3.4'
 services:
-  stash:
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: sparkles-stashapp_server_1
+      APP_PORT: 9999
+
+  server:
     image: stashapp/stash:latest
     container_name: stash
     restart: unless-stopped
