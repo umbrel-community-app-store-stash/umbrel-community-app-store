@@ -10,6 +10,8 @@ services:
 
   server:
     image: stashapp/stash:latest
+    user: "1000:1000"
+    init: true
     container_name: stash
     restart: unless-stopped
     ## the container's port must be the same with the STASH_PORT in the environment section

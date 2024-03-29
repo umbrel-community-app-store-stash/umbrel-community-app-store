@@ -2,18 +2,24 @@ manifestVersion: 1
 id: sparkles-stashapp
 name: Stash
 tagline: Stash library
-category: media
+icon: https://svgur.com/i/14qs.svg
+category: Development
 version: "0.0.1"
 port: 9999
 description: >-
   Stash app
 developer: Stash
 website: https://github.com/StashApp
+submitter: Umbrel
+submission: https://github.com/getumbrel/umbrel-hello-world-app
 repo: https://github.com/StashApp
 support: https://github.com/StashApp
-icon: https://svgur.com/i/14qs.svg
 releaseNotes: >-
   Initial umbrel release
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
 dependencies: []
 path: ""
 defaultUsername: ""
